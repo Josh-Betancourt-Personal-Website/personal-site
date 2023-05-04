@@ -15,8 +15,8 @@ body {
 .navbar1 {
 
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 0em;
+  top: 0em;
   
   background-color: rgb(236, 236, 236);
   padding-left: 60px;
@@ -32,27 +32,49 @@ body {
 display: flex;
 align-items: center;
 justify-content: space-between;
-font-size: 20px;
+font-size: 1em;
 text-align: right;
 text-decoration: none;
 
 background-color: rgb(236, 236, 236);
-padding-left: 60px;
-padding-right: 20px;
+padding-left: 1em;
+padding-right: 1em;
 }
+
+a {
+  color: rgb(0, 89, 64);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10mm;
+
+
+
+
+}
+a:hover {
+
+  text-decoration: underline;
+  color: rgb(165, 231, 229);
+}
+
+
+
+
 
 p {
   font-family:monospace;
-  font-size: 35px;
+  font-size: 7mm;
+  line-height: 30 em;
 }
 
 .devtitle{ 
   font-style: italic;
-  border: 5px;
+  font-size: 2em;
+  border: 2mm;
   border-style:outset;
   background-color: aliceblue;
-  padding: 10px;
-  height: 20px
+  padding: 5mm;
+  height:5mm;
 }
 
 .quote1{
@@ -71,29 +93,37 @@ p {
 }
 
 .img-about {
-  
+  border: 1mm;
+  border-style:solid;
+  border-color: darkgray;
   float: left;
-  height: 400px; 
-  width: 400px;
-  padding-right: 10px;
+  height: 20em; 
+  width: 20em;
+  padding-right: auto;
 
 }
 
 .img-about2 {
+  border: 1mm;
+  border-style:solid;
+  border-color: darkgray;
   float: right;
-  width: 300px;
-  height: 200px;
-  padding-left: 5px;
-  padding-right:  40px;
+  width: 20em;
+  height: 20em;
+  padding-left: auto;
+  padding-right:  auto;
 }
   
 
 
 .img-cat {
+  border: 1mm
+  border-style: solid;
+  border-color: darkgray;
   float: left;
-  height: 400px; 
-  width: 400px;
-  padding-right: 10px;
+  height: 20em; 
+  width: 20em;
+  padding-right: auto;
 
 }
 
@@ -105,4 +135,30 @@ p {
 
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1mm;
+  background-color: white;
+  padding: 1mm;
 }
+
+.grid-container > div {
+  background-color: rgba(64, 90, 92, 0.8);
+  text-align: center;
+  padding: 5mm;
+  font-size: 5mm;
+
+
+
+  .img-grid {
+    float: center;
+    height: 5em; 
+    width: 5em;
+    
+  }
+
+
+ 
+  
+  
